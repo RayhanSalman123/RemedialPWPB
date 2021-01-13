@@ -20,7 +20,7 @@
 				</tr>
 				@foreach($student as $key => $data)
 				<tr>
-					<td>{{$key}}</td>
+					<td>{{$key+1}}</td>
 					<td>{{$data->name}}</td>
 					<td>{{$data->class}}</td>
 					<td>{{$data->major}}</td>
